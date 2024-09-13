@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rabbit Records - Music Producer and Director">
+    <title>Rabbit Records | Music Producer & Director</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #292b2c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #292b2c;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .portfolio-item {
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #292b2c;
+            color: white;
+        }
+        a {
+            color: #292b2c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rabbit Records</h1>
+        <p>Music Producer & Director</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Noven, but you can call me Rabbit Records. I specialize in producing and directing music that resonates with the soul. Explore my portfolio below to dive into the projects I've worked on.</p>
+    </section>
+
+    <section>
+        <h2>Music Portfolio</h2>
+        <div class="portfolio">
+            <!-- Portfolio items go here. Replace the links with your actual music links. -->
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>A description of the music you produced or directed.</p>
+                <a href="link-to-music-1" target="_blank">Listen Here</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>A description of the music you produced or directed.</p>
+                <a href="link-to-music-2" target="_blank">Listen Here</a>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Interested in working with me? Reach out via email at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+    </section>
+
+    <section>
+        <h2>Follow Me</h2>
+        <p>Stay connected on my social media platforms:</p>
+        <ul>
+            <li><a href="link-to-your-social-1" target="_blank">Social Media 1</a></li>
+            <li><a href="link-to-your-social-2" target="_blank">Social Media 2</a></li>
+            <!-- Add more social links as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rabbit Records. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
